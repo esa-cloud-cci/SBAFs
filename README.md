@@ -112,16 +112,6 @@ The empirical channels are:
 | 11.0 µm | brightness temperature [K] | K |
 | 12.0 µm | brightness temperature [K] | K |
 
-### Current application rules
-
-These rules describe the current application of the empirical coefficient set
-and are separate from the basic linear SBAF definition.
-
-- 0.65/0.86 µm: day for SZA < 80°; larger SZA values are not used.
-- Polar 3.8 µm: day for SZA < 75°; 75° ≤ SZA < 90° is not used; night for
-  SZA ≥ 90°.
-- GEO 3.8 µm: day for SZA < 90°; night for SZA > 90°.
-- 11/12 µm: day for SZA < 80°; night for SZA ≥ 80°.
 
 ## Python usage
 
